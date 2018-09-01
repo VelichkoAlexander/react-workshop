@@ -1,8 +1,9 @@
 // Core
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // Instruments
-import avatar from '../theme/assets/avatars/nasa';
+import avatar from "../theme/assets/avatars/nasa";
+import Stories from "../components/Stories";
 
 export default class Profile extends Component {
     render () {
@@ -27,6 +28,7 @@ export default class Profile extends Component {
                     </div>
                     <span className = 'name'>NASA</span>
                 </div>
+                <Stories />
             </div>
         );
     }
